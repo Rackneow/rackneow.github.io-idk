@@ -1,16 +1,36 @@
-.shit{
-	background-color: red;
+body{
+    width:100%;
+    margin:0;
+    padding:0;
 }
-
-.square{
-	background: blue;
-	transition-duration: 2s;
-	height: 200px;
-	width: 200px;
-	position: absolute;
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
 }
-
-.square:hover{
-	background: green;
-	transform: rotateX(360deg);
+.wrapper{
+    background-image: url(240.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.header{
+    height: 150px;
+    padding: 10px;
+}
+.content{
+    /* background-color: rgba(0,255,0,0.5);
+    background: linear-gradient(rgba(0,255,0,0.1) 0%,rgba(0,255,0,0.1) 100%);
+    border-radius: 30px; */
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    border-radius: 30px; 
+    /* background: green; 
+    opacity: 0.5; */
+    height: 300px;
+    margin: 10px 0;
+}
+.footer{
+    height: 150px;
 }
